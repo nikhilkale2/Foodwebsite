@@ -1,0 +1,97 @@
+@media (min-width: 300px) and (max-width: 768px) {
+  .navbar-section {
+    margin-top: 5px;
+  }
+  .nav-link {
+    position: absolute;
+    top: 100px;
+    right: 38px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    background-color: blanchedalmond;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 12px;
+  }
+
+  .nav-box {
+    display: none;
+  }
+  .nav-box.show {
+    display: block;
+  }
+
+  .nav-link li {
+    padding: 16px;
+    transition: all 0.8s ease-in-out;
+  }
+  .nav-link li:hover {
+    background-color: green;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 3px 3px 10px grey, -3px -3px 10px grey;
+  }
+
+  .nav-link li:hover a {
+    color: white;
+  }
+
+  #humburgerIcon {
+    display: block;
+  }
+
+  .sign {
+    font-size: 1.2rem;
+    padding: 0.5rem 1.1rem;
+  }
+  .sign i {
+    font-size: 1.3rem;
+  }
+
+  /* HERO SECTION  */
+
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-top: 40px;
+    margin-right: 40px;
+  }
+
+  .hero-content h1 {
+    font-size: 3.5rem;
+    margin: 0 auto;
+  }
+
+  .hero-social {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-social button {
+    width: 100%;
+  }
+
+  .icons {
+    display: flex;
+    gap: 25px;
+  }
+
+  .hero-img img {
+    width: 500px;
+    height: 500px;
+    margin-right: 60px;
+  }
+
+  /* WORKING SECTION */
+
+  .working-point {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+}

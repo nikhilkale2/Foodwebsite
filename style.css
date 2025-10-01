@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Epunda+Slab:wght@300..900&family=Quicksand:wght@300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fffdf7;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* NAVBAR STYLING SECTION  */
+
+.navbar-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 2.5rem;
+}
+
+.nav-link li {
+  font-size: 1.3rem;
+}
+
+.nav-link li a:hover {
+  color: orange;
+  font-weight: 500;
+}
+
+.sign-in {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.cart-value {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sign {
+  background-color: gold;
+  padding: 9px 20px;
+  border-radius: 14px;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 900;
+  border: none;
+  outline: none;
+  transition: all 0.8s ease-in-out 0s;
+}
+
+.sign:hover {
+  background-color: black;
+}
+
+i {
+  font-size: 1.9rem;
+}
+.logo a {
+  color: gold;
+}
+
+.cart {
+  width: 28px;
+  height: 28px;
+  background-color: green;
+  color: white;
+  border-radius: 50%;
+  position: relative;
+  right: 20px;
+  top: 10px;
+}
+
+.cart span {
+  font-size: 1.5rem;
+  margin-left: 8px;
+}
+
+#humburgerIcon {
+  display: none;
+}
+
+/* HERO SECTION START*/
+
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero-img img {
+  width: 800px;
+  height: 700px;
+  position: relative;
+  left: 55px;
+}
+
+.hero-content {
+  margin-left: 50px;
+}
+
+.hero-content h1 {
+  font-size: 4.5rem;
+}
+
+.hero-content span {
+  color: gold;
+}
+
+.hero-content p {
+  font-size: 1.3rem;
+  margin-top: 18px;
+  line-height: 34px;
+  color: #000000af;
+}
+
+.hero-social {
+  margin-top: 20px;
+}
+
+.hero-social button {
+  padding: 10px 18px;
+  border: none;
+  outline: none;
+  background-color: gold;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  color: white;
+  transition: all 0.6s ease-in-out 0s;
+}
+
+.hero-social button:hover {
+  box-shadow: 4px 4px 17px red, -4px -4px 17px red;
+}
+
+.hero-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.hero-icon {
+  width: 45px;
+  height: 45px;
+  background-color: gold;
+  border-radius: 50%;
+  transition: all 0.6s ease-in-out 0s;
+  box-shadow: 6px 6px 20px deeppink, -6px -6px 20px deeppink;
+}
+
+.hero-icon:hover {
+  box-shadow: 6px 6px 20px red, -6px -6px 20px red;
+  transform: scale(1.1);
+}
+
+.icons {
+  display: flex;
+  gap: 25px;
+}
+
+.hero-icon i {
+  margin-top: 8px;
+  margin-left: 4px;
+}
+
+.fa-instagram {
+  color: red;
+}
+
+.fa-facebook {
+  color: blue;
+}
+
+.fa-snapchat {
+  color: #fb0202;
+}
+
+/* HOW DOES WORK SECTION */
+
+.working-section {
+  margin-top: 80px;
+}
+
+.working-point {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box-1 img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+.working-content {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.box-1 h1 {
+  margin-bottom: 15px;
+}
