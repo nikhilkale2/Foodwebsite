@@ -94,4 +94,33 @@
     align-items: center;
     gap: 30px;
   }
+
+  /* MENU SECTION */
+
+  .Item-container {
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .item-box {
+    width: 400px;
+    height: 420px;
+  }
+
+  .item-box figure img {
+    width: 250px;
+    margin-left: 25px;
+  }
+
+  .item-box button {
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+
+  .item-box h2 {
+    text-align: center;
+    margin-bottom: 1px;
+  }
 }
