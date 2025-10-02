@@ -289,3 +289,50 @@ i {
 .spring-roll h2 {
   margin-top: 40px;
 }
+
+/* REVIEW SECTION */
+
+.review-section {
+  margin-top: 90px;
+  padding: 20px;
+}
+
+.review-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.review-section h1 {
+  text-align: center;
+}
+
+.review-content figure img {
+  position: relative;
+  right: 80px;
+  width: 800px;
+}
+
+.user-review {
+  display: flex;
+  align-items: center;
+}
+
+.user-review img {
+  width: 100px;
+}
+
+.review-content p {
+  line-height: 26px;
+}
+
+.review-box h3 {
+  margin-bottom: 20px;
+  color: gold;
+}
+
+.review-box h1 {
+  margin-bottom: 50px;
+  font-size: 50px;
+}
