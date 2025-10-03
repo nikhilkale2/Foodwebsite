@@ -177,4 +177,35 @@
   }
 
   /* SUBSCRIBE SECTION  */
+
+  .subscribe-section {
+    padding: 20px;
+  }
+
+  .subscribe-content h3 {
+    font-size: 1.3rem;
+  }
+
+  .subscribe-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .subscribe-content p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .input-section {
+    width: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input-section input {
+    width: 250px;
+    height: 40px;
+    padding: 0 15px;
+    font-size: 20px;
+  }
 }
