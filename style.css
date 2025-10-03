@@ -336,3 +336,60 @@ i {
   margin-right: 40px;
   font-size: 50px;
 }
+
+/* ADVERTISE SECTION */
+
+.ADS {
+  margin: 40px;
+}
+
+.ads-section {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  background-color: #f5db4e;
+  border-radius: 10px;
+}
+
+.ads-img {
+  width: 800px;
+  height: 800px;
+}
+
+.ads-img img {
+  width: 100%;
+}
+
+.ads-content {
+  margin-top: 150px;
+}
+
+.ads-content h3 {
+  font-size: 25px;
+  color: green;
+}
+
+.ads-content h1 {
+  font-size: 60px;
+  background: linear-gradient(145deg, red, deeppink, deepskyblue);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ads-content p {
+  margin-top: 20px;
+  margin-left: 15px;
+  line-height: 24px;
+}
+
+.ads-content button {
+  margin-top: 15px;
+  margin-left: 15px;
+  padding: 8px 16px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+}
