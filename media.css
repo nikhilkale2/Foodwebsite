@@ -210,4 +210,13 @@
   }
 
   /* FOOTER SECTION */
+
+  .footer-section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+  }
 }
