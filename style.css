@@ -88,8 +88,10 @@ i {
 }
 
 .cart span {
-  font-size: 1.5rem;
-  margin-left: 8px;
+  font-size: 1.1rem;
+  position: relative;
+  top: 0.2rem;
+  left: 0.4rem;
 }
 
 #humburgerIcon {
@@ -469,6 +471,10 @@ i {
   padding: 30px;
   display: flex;
   justify-content: space-around;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  left: 0;
 }
 
 .footer-info {
@@ -512,4 +518,45 @@ i {
   line-height: 35px;
   font-size: 18px;
   color: #000000a5;
+}
+
+/* ADD TO CART PAGE CSS */
+
+.product-box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 50px;
+}
+
+.produc-box {
+  background-color: white;
+  display: flex;
+  border-radius: 5px;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 6px 6px 18px grey, -6px -6px 18px grey;
+}
+
+.produc-box img {
+  width: 130px;
+}
+
+.produc-box button {
+  width: 9rem;
+  height: 3rem;
+  font-size: 18px;
+  border: 2px solid black;
+  outline: none;
+  background-color: black;
+  border-radius: 6px;
+  color: white;
+  transition: all 0.8s ease-in-out 0s;
+}
+
+.produc-box button:hover {
+  background-color: white;
+  color: black;
 }

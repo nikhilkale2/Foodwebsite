@@ -32,9 +32,9 @@
         </div>
 
         <div class="sign-in">
-          <a href="#" class="cart-value">
+          <a href="addToCart.html" class="cart-value">
             <i class="fa-solid fa-bag-shopping"></i>
-            <p class="cart"><span>0</span></p>
+            <p class="cart"><span id="item-value">0</span></p>
           </a>
           <button class="sign" id="signBtn">
             Sign in <i class="fa-solid fa-right-to-bracket"></i>
@@ -120,69 +120,117 @@
         <h1>The Most Popular</h1>
 
         <div class="Item-container">
-          <div class="item-box">
+          <div
+            class="item-box itemBox"
+            data-img="./images/burger-1.webp"
+            data-price="25.34"
+            data-name="Double Beef Burger"
+          >
             <figure>
               <img src="./images/burger-1.webp" alt="" />
             </figure>
             <h2>Double Beef Burger</h2>
-            <p>$25.34</p>
-            <button>Add to Cart</button>
+            <p>25.34</p>
+
+            <button class="AddToCart">Add to Cart</button>
           </div>
-          <div class="item-box">
+
+          <div
+            class="item-box itemBox"
+            data-img="./images/veggy-pizza.webp"
+            data-price="45.34"
+            data-name="Veggy Pizza"
+          >
             <figure>
               <img src="./images/veggy-pizza.webp" alt="" />
             </figure>
-            <h2>Double Beef Burger</h2>
-            <p>$25.34</p>
-            <button>Add to Cart</button>
+            <h2>Veggy Pizza</h2>
+            <p>45.34</p>
+            <button class="AddToCart" data-item="item1">Add to Cart</button>
           </div>
-          <div class="item-box">
+
+          <div
+            class="item-box itemBox"
+            data-img="./images/fried-chicken.webp"
+            data-price="50.34"
+            data-name="Fried Chicken"
+          >
             <figure>
               <img src="./images/fried-chicken.webp" alt="" />
             </figure>
-            <h2>Double Beef Burger</h2>
-            <p>$25.34</p>
-            <button>Add to Cart</button>
+            <h2>Fried Chicken</h2>
+            <p>50.34</p>
+            <button class="AddToCart" data-item="item1">Add to Cart</button>
           </div>
-          <div class="item-box">
+
+          <div
+            class="item-box itemBox"
+            data-img="./images/chiken-roll.png"
+            data-price="35.34"
+            data-name="Chiken Roll"
+          >
             <figure>
               <img src="./images/chiken-roll.png" alt="" />
             </figure>
-            <h2>Double Beef Burger</h2>
-            <p>$25.34</p>
-            <button>Add to Cart</button>
+            <h2>Chiken Roll</h2>
+            <p>35.14</p>
+            <button class="AddToCart" data-item="item1">Add to Cart</button>
           </div>
-          <div class="item-box">
+
+          <div
+            class="item-box itemBox"
+            data-img="./images/sub-sandwitch.png"
+            data-price="85.34"
+            data-name="Sandwitch"
+          >
             <figure>
               <img src="./images/sub-sandwitch.png" alt="" />
             </figure>
-            <h2>Double Beef Burger</h2>
-            <p>$25.34</p>
-            <button>Add to Cart</button>
+            <h2>Sandwitch</h2>
+            <p>85.34</p>
+            <button class="AddToCart" data-item="item1">Add to Cart</button>
           </div>
-          <div class="item-box">
+
+          <div
+            class="item-box itemBox"
+            data-img="./images/chicken-lasanga.webp"
+            data-price="65.34"
+            data-name="Chiken lasanga"
+          >
             <figure>
               <img src="./images/chicken-lasanga.webp" alt="" />
             </figure>
-            <h2>Double Beef Burger</h2>
-            <p>$25.34</p>
-            <button>Add to Cart</button>
+            <h2>Chiken lasanga</h2>
+            <p>65.34</p>
+            <button class="AddToCart" data-item="item1">Add to Cart</button>
           </div>
-          <div class="item-box">
+
+          <div
+            class="item-box itemBox"
+            data-img="./images/italian-spaghetti.png"
+            data-price="15.34"
+            data-name="italian spaghetti"
+          >
             <figure>
               <img src="./images/italian-spaghetti.png" alt="" />
             </figure>
-            <h2>Double Beef Burger</h2>
-            <p>$25.34</p>
-            <button>Add to Cart</button>
+            <h2>italian spaghetti</h2>
+            <p>15.34</p>
+            <button class="AddToCart" data-item="item1">Add to Cart</button>
           </div>
-          <div class="item-box spring-roll">
+
+          <div
+            class="item-box spring-roll itemBox"
+            data-img="./images/spring-roll.png"
+            data-price="39.34"
+            data-nam="Spring Roll"
+          >
             <figure>
               <img src="./images/spring-roll.png" alt="" />
             </figure>
-            <h2>Double Beef Burger</h2>
-            <p>$25.34</p>
-            <button>Add to Cart</button>
+            <h2>Spring Roll</h2>
+            <p>39.34</p>
+            <button class="AddToCart" data-item="item1">Add to Cart</button>
           </div>
         </div>
       </div>
