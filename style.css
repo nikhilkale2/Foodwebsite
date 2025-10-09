@@ -560,3 +560,65 @@ i {
   background-color: white;
   color: black;
 }
+
+/* FORM STYLING */
+
+.form-div {
+  height: 100lvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+form label {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 20px;
+}
+
+form input {
+  width: 400px;
+  height: 50px;
+  padding: 10px 10px;
+  font-size: 17px;
+  border: 2px solid black;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+form button {
+  height: 50px;
+  font-size: 19px;
+  border: none;
+  outline: none;
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+form textarea {
+  height: 100px;
+  padding: 10px 10px;
+  font-size: 17px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
