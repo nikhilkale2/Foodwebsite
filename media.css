@@ -232,4 +232,15 @@
     padding: 14px 10px;
     gap: 10px;
   }
+
+  /* CONTACT PAGE STYLING */
+
+  form {
+    width: 100%;
+    padding: 15px;
+  }
+
+  form input {
+    width: 350px;
+  }
 }
